@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/kongborg2'
+          BASE_PATH: '/kongborg'
         run: |
           npm run build
 
